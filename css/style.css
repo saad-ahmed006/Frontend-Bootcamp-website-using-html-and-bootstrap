@@ -1,0 +1,125 @@
+body{
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.image-1 img{
+    width: 650px;
+}
+
+@media screen and (max-width:991px) {
+    .image-1 img{
+        display: none;
+    }
+
+    .main-content h1{
+        text-align: center;
+        font-size:30px;
+    }
+    
+    .main-content p{
+        text-align: center;
+    }
+ 
+
+    
+}
+
+.input input {
+    width: 500px;
+    height: 41px; 
+    border-radius: 3px; 
+    border: none;
+
+}
+/* .input ::placeholder{
+  text-align: center;
+} */
+.input input:focus{
+    outline: none;
+
+}
+
+.second-section{
+    background-color: gray;
+ color: white;
+    
+}
+
+
+.image-2 img{
+    width: 500px;
+}
+.image-3 img{
+    width: 510px;
+    padding: 40px;
+}
+
+
+@media screen and (max-width:991px) {
+    
+.image-2 img{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+.image-3 img{
+    width: 350px;
+    display: block;
+    margin: auto;
+   
+
+}
+.auto{
+    text-align: center;
+    margin-top: 50px;
+}
+}
+
+
+@media screen and (max-width:578px) {
+    
+.image-2 img{
+    width: 180px;
+    display: block;
+    margin: auto;
+}
+.image-3 img{
+    width:240px;
+    display: block;
+    margin: auto;
+ 
+}
+
+}  
+
+
+.image-5 {
+width: 100px;
+margin: auto;
+
+}
+.john-dou-container{
+    height: 600px;
+}
+ @media screen and (max-width:768px) {
+    .john-dou-container{
+        height: 1400px;
+    }
+ }
+
+.height{
+    height: 100px;
+  
+}
+
+#image_inst img{
+    height: 170px;
+    width: 165px;
+}
+    
+#box{
+  height: 250px;
+  width: 280px;
+}
+
+
